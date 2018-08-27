@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  font-family: Lato,Helvetica, Arial, sans-serif;
+  margin-top: 105px; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+.btn-primary {
+  background: #3292a6 !important;
+  border-color: #3292a6 !important; }
+
+.btn {
+  border-radius: 0 !important; }
+
+.text-primary-color {
+  color: #3292a6; }
+
+.bg-primary-lg {
+  background: #3292a6 !important; }
+
+.margin-top-med {
+  margin-top: 4rem; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+#home .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#home .heading {
+  color: green; }
+
+.heading {
+  color: rebeccapurple; }
+
+#boxes .boxes {
+  border-color: #3292a6 !important; }
+
+#boxes .boxes:hover h3,
+#boxes .boxes:hover p {
+  color: white !important; }
+
+#boxes .primary-bg {
+  background: #3292a6; }
+
+#about .info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors .info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+.authorCard .fab {
+  font-size: 2rem;
+  color: #3292a6; }
+
+.authorCard img {
+  margin-top: -50px; }
+
+.card:hover {
+  background: #3292a6;
+  color: white; }
+  .card:hover .fab {
+    color: white; }

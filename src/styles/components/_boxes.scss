@@ -1,0 +1,15 @@
+#boxes {
+  .boxes {
+    border-color: $primary-color !important;
+  }
+  .boxes:hover {
+    h3,
+    p {
+      color: white !important;
+    }
+  }
+
+  .primary-bg {
+    background: $primary-color;
+  }
+}

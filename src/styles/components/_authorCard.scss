@@ -1,0 +1,24 @@
+#authors {
+  .info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+  }
+}
+.authorCard {
+  .fab {
+    font-size: 2rem;
+    color: $primary-color;
+  }
+  img {
+    margin-top: -50px;
+  }
+}
+
+.card:hover {
+  background: $primary-color;
+  color: white;
+  .fab {
+    color: white;
+  }
+}
